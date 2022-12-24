@@ -3,10 +3,10 @@ import Header from '../../Molecules/Header/Header'
 import About from '../../Organisms/About/About'
 
 const Home = () => {
-    return <>
-        <Header />
-        <About />
-    </>
+  return <>
+    <Header />
+    <About />
+  </>
 }
 
 export default Home
