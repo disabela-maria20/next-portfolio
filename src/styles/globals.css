@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+    h1 {
+        @apply text-38 sm:text-45 
+    }
+
+    h2 {
+        @apply text-31 sm:text-38
+    }
+
+    h3 { 
+        @apply text-26 sm:text-31
+    }
+
+    p, span, label {
+        @apply text-15 sm:text-18
+    }
+
+    img {
+        @apply max-w-full h-auto;
+    }
+    a{
+        @apply text-15
+    }
+}
+
+@layer components {
+    .line {
+        @apply w-full bg-white h-2 opacity-50 rounded relative transition transform;
+    }
+    .line.active:nth-child(1){
+        @apply opacity-100 transition transform ease-in rotate-45 duration-300 top-4/3 delay-150
+    }
+    .line.active:nth-child(2){
+        @apply hidden transition ease-in duration-300
+    }
+    .line.active:nth-child(3){
+        @apply  h-2 opacity-100 transition transform ease-in duration-300 -rotate-45 -top-4/3	delay-150
+    }
+    .nav{
+        @apply flex bg-black items-center flex-col md:flex-row transition transform ease-in w-full
+    }
+}
+@layer utilities {
+    .animateSquare{
+        animation: animate 5s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            transform: scale(0) translateY(0) rotate(0deg); opacity: 0;
+        }
+        10%{
+            opacity: 1;
+        }
+        100%{
+            transform: scale(1) translateY(700%) rotate(360deg);
+        }
+    }
+    .square{
+        height: calc(100vh - 79px);
+    }
+}
