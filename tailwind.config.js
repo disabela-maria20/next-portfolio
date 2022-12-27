@@ -94,7 +94,11 @@ module.exports = {
             '4/3': '45%',
             '-4/3': '-45%',
         },
-        extend: {}
+        extend: {
+          backgroundImage: {
+            'waves': "url('/img/waves.png')",
+          }
+        }
     },
     plugins: []
 }

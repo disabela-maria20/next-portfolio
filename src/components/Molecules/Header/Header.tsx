@@ -4,7 +4,7 @@ import Square from '../Square/Square'
 
 const Header = () => {
   return (
-    <div className='bg-black'>
+    <div className=' bg-black'>
       <Menu />
       <Square />
     </div>

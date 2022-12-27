@@ -6,7 +6,7 @@ import Nav from '../../Atoms/Nav/Nav'
 const Menu = () => {
   const [open, setOpen] = useState<boolean>(false)
   return (
-    <div className="h-79">
+    <header className="h-79">
       <div className="container m-auto">
         <div className="md:flex md:justify-between md:items-center">
           <div className="flex justify-between p-13 items-center md:block">
@@ -16,7 +16,7 @@ const Menu = () => {
           <Nav open={open} />
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 
