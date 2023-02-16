@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "img" : "./img/4datakons.png",
+    "name": "4Datakons",
+    "link": "",
+    "technology": {
+        "name": "wordpress", 
+        "icon": "./img/wordpress.png"
+      }, 
+    "type": "professional"
+  },
+  {
+    "id": 2,
+    "img" : "./img/amabank-2021-2022.png",
+    "name": "Amabank", 
+    "link": "",
+    "technology": {
+        "name": "react", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 3,
+    "img" : "./img/brandlovrs.png",
+    "name": "Brandlovrs", 
+    "link": "",
+    "technology": {
+        "name": "webflow", 
+        "icon": "./img/webflow.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 4,
+    "img" : "./img/experimentador.png",
+    "name": "Experimentador", 
+    "link": "",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 5,
+    "img" : "./img/partners-2021.png",
+    "name": "Partners", 
+    "link": "",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 6,
+    "img" : "./img/brandlovrs-app.png",
+    "name": "App Brandlovrs", 
+    "link": "",
+    "technology": {
+        "name": "react", 
+        "icon": "./img/react.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 7,
+    "img" : "./img/CompanyName.png",
+    "name": "CompanyName", 
+    "link": "",
+    "technology": {
+        "name": "HTML", 
+        "icon": "./img/html.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 8,
+    "img" : "./img/drograria-sp.png",
+    "name": "Drograrias SP",
+    "link": "", 
+    "technology": {
+        "name": "react", 
+        "icon": "./img/react.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 9,
+    "img" : "./img/fealthyfood.png",
+    "name": "Fealthy Food", 
+    "link": "",
+    "technology": {
+        "name": "react", 
+        "icon": "./img/react.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 10,
+    "img" : "./img/finans.png",
+    "name": "Finans", 
+    "link": "",
+    "technology": {
+        "name": "react", 
+        "icon": "./img/html.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 11,
+    "img" : "./img/parallax.png",
+    "name": "Parallax",
+    "link": "", 
+    "technology": {
+        "name": "react", 
+        "icon": "./img/html.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 12,
+    "img" : "./img/sportify.png",
+    "name": "Sportify", 
+    "link": "",
+    "technology": {
+        "name": "react", 
+        "icon": "./img/html.png"
+      }, 
+      "type": "study"
+  }
+]

@@ -35,7 +35,7 @@ const Square = () => {
 
   return (
     <>
-      <section className='square relative overflow-hidden flex flex-col items-center justify-center bg-waves bg-no-repeat' ref={block}>
+      <section className='square relative overflow-hidden flex flex-col items-center justify-center bg-waves bg-no-repeat bg-cover' ref={block}>
         <div className=" h-100">
           <h1 className='relative text-white font-serif text-center mb-15 leading-title after:content-[""] after:mt-15 after:absolute after:-bottom-8  after:bg-yellow after:w-185 after:h-2 after:left-0 after:right-0 after:m-auto after:z-40 '>
             Desenvolvedora<br /> Front-end
