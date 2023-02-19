@@ -3,7 +3,7 @@
     "id": 1,
     "img" : "./img/4datakons.png",
     "name": "4Datakons",
-    "link": "",
+    "link": "https://www.4datakons.com/",
     "technology": {
         "name": "wordpress", 
         "icon": "./img/wordpress.png"
@@ -13,8 +13,8 @@
   {
     "id": 2,
     "img" : "./img/amabank-2021-2022.png",
-    "name": "Amabank", 
-    "link": "",
+    "name": "Amabank 2021", 
+    "link": "https://react-amabank-lp.vercel.app/",
     "technology": {
         "name": "react", 
         "icon": "./img/next-js.png"
@@ -25,7 +25,7 @@
     "id": 3,
     "img" : "./img/brandlovrs.png",
     "name": "Brandlovrs", 
-    "link": "",
+    "link": "https://www.brandlovrs.com/",
     "technology": {
         "name": "webflow", 
         "icon": "./img/webflow.png"
@@ -36,7 +36,7 @@
     "id": 4,
     "img" : "./img/experimentador.png",
     "name": "Experimentador", 
-    "link": "",
+    "link": "https://www.experimentador.com.br/",
     "technology": {
         "name": "Next", 
         "icon": "./img/next-js.png"
@@ -46,8 +46,8 @@
   {
     "id": 5,
     "img" : "./img/partners-2021.png",
-    "name": "Partners", 
-    "link": "",
+    "name": "Partners 2021-2022", 
+    "link": "https://react-partners-lp.vercel.app/",
     "technology": {
         "name": "Next", 
         "icon": "./img/next-js.png"
@@ -58,7 +58,7 @@
     "id": 6,
     "img" : "./img/brandlovrs-app.png",
     "name": "App Brandlovrs", 
-    "link": "",
+    "link": "https://app.brandlovrs.com/auth",
     "technology": {
         "name": "react", 
         "icon": "./img/react.png"
@@ -69,7 +69,7 @@
     "id": 7,
     "img" : "./img/CompanyName.png",
     "name": "CompanyName", 
-    "link": "",
+    "link": "https://html-company-consultoria-lp.vercel.app/",
     "technology": {
         "name": "HTML", 
         "icon": "./img/html.png"
@@ -80,7 +80,7 @@
     "id": 8,
     "img" : "./img/drograria-sp.png",
     "name": "Drograrias SP",
-    "link": "", 
+    "link": "https://html-drogararia-sp-lp.vercel.app/", 
     "technology": {
         "name": "react", 
         "icon": "./img/react.png"
@@ -91,7 +91,7 @@
     "id": 9,
     "img" : "./img/fealthyfood.png",
     "name": "Fealthy Food", 
-    "link": "",
+    "link": "https://react-healthy-food-lp.vercel.app/",
     "technology": {
         "name": "react", 
         "icon": "./img/react.png"
@@ -102,7 +102,7 @@
     "id": 10,
     "img" : "./img/finans.png",
     "name": "Finans", 
-    "link": "",
+    "link": "https://html-finans-lp.vercel.app/",
     "technology": {
         "name": "react", 
         "icon": "./img/html.png"
@@ -113,7 +113,7 @@
     "id": 11,
     "img" : "./img/parallax.png",
     "name": "Parallax",
-    "link": "", 
+    "link": "https://html-paralax-lp.vercel.app/", 
     "technology": {
         "name": "react", 
         "icon": "./img/html.png"
@@ -124,11 +124,65 @@
     "id": 12,
     "img" : "./img/sportify.png",
     "name": "Sportify", 
-    "link": "",
+    "link": "https://html-spotify-lp.vercel.app/",
     "technology": {
         "name": "react", 
         "icon": "./img/html.png"
       }, 
       "type": "study"
+  }, 
+  {
+    "id": 13,
+    "img" : "./img/adventures-blog.png",
+    "name": "Adventures Blog", 
+    "link": "",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "study"
+  }, {
+    "id": 14,
+    "img" : "./img/tinyone.png",
+    "name": "Tinyone", 
+    "link": "https://tinyone-app.vercel.app/",
+    "technology": {
+        "name": "React", 
+        "icon": "./img/react.png"
+      }, 
+      "type": "study"
+  },
+  {
+    "id": 15,
+    "img" : "./img/Adventures-2021-2022.png",
+    "name": "Adventures 2021-2022", 
+    "link": "https://web.archive.org/web/20220329184116/https://adventures.inc/en/",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/wordpress.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 16,
+    "img" : "./img/experimentador-natal.png",
+    "name": "Experimentador Natal", 
+    "link": "https://www.experimentador.com.br/cases/pacorabanne-natal",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "professional"
+  },
+  {
+    "id": 17,
+    "img" : "./img/experimentador-phantom.png",
+    "name": "Experimentador Phantom", 
+    "link": "https://next-experimentador-phantom-lp.vercel.app/pacorabanne",
+    "technology": {
+        "name": "Next", 
+        "icon": "./img/next-js.png"
+      }, 
+      "type": "professional"
   }
 ]

@@ -65,4 +65,19 @@
       background-position-y: 90vh;
       background-position-x: unset;
     }
+    .block-project{
+      background: black;
+      transition: 0.3s;
+      
+    }
+    .block-project:hover{
+      transform: scale(1.2);
+      position: relative;
+      z-index: 999;
+    }
+   
+    .block-project-img{
+      opacity: 0.4;
+    }
+    
 }
