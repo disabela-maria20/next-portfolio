@@ -5,15 +5,15 @@
 
 @layer base {
     h1 {
-        @apply text-38 sm:text-45 
+        @apply text-38 sm:text-45 md:text-55
     }
 
     h2 {
-        @apply text-31 sm:text-38
+        @apply text-31 sm:text-38 md:text-45
     }
 
     h3 { 
-        @apply text-26 sm:text-31
+        @apply text-26 sm:text-31 
     }
 
     p, span, label {

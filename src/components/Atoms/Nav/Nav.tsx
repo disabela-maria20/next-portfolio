@@ -1,9 +1,6 @@
-type props = {
-    open: boolean
-}
+import { INavProps } from "./type"
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const Nav = ({ open }: props) => {
+const Nav:React.FC<INavProps> = ({ open }) => {
     return (
         <nav className="transition-[all] transform ease-in-out duration-200 left-0 top-79 md:top-0 md:w-auto absolute md:relative w-full overflow-hidden md:over">
             <ul className={`nav origin-center ${open ? '-translate-x-full' : '-translate-x-0'}`} >

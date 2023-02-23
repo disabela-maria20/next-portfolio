@@ -1,5 +1,5 @@
 
-import React, { Suspense, useState } from 'react'
+import React, { useState } from 'react'
 import { Title } from '../../Atoms'
 import server from '../../../json/ServerProjescts.json'
 import Link from 'next/link'
@@ -10,7 +10,7 @@ const Projects: React.FC = (): JSX.Element => {
 
   return (
     <div className='container m-auto px-15' id='trabalhos'>
-      <div className='md:mt-45 flex flex-col items-center md:justify-between md:flex-row mb-26'>
+      <div className='flex flex-col items-center md:justify-between md:flex-row mb-26 md:mt-66 '>
         <Title>
           Trabalhos
         </Title>
